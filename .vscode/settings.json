@@ -1,0 +1,28 @@
+{
+    "cSpell.enableFiletypes": [
+        "python"
+    ],
+    "cSpell.ignoreWords": [
+        "wieksze"
+    ],
+    "editor.bracketPairColorization.enabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    //     "workbench.colorTheme": "Night Owl Black",
+    //     "workbench.iconTheme": "vs-seti",
+    //     // "editor.fontFamily": " SF Mono Semibold",
+    
+    //     // "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0c0c0c",
+    "editor.selectionBackground": "#5b3177",
+    "terminal.background" : "#0c0c0c",
+    "editor.background": "#0c0c0c",
+    "editorGutter.background": "#0c0c0c",
+    "sideBar.background": "#0c0c0c",
+    "activityBar.background": "#0c0c0c",
+    "statusBar.background": "#0c0c0c",
+    "editor.lineHighlightBackground": "#0c0c0c",
+    "tab.activeBackground": "#0c0c0c",
+    "tab.inactiveBackground": "#0c0c0c",
+  }}
+
