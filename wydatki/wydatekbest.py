@@ -1,4 +1,5 @@
 expenses = []
+
 mnth = {1:'styczen', 2:'luty', 3:'marzec', 4:'kwiecien', 5:'maj', 6:'czerwiec', 7:'lipiec', 8:'sierpien', 9:'wrzesien', 10:'pazdziernik', 11:'listipad', 12:'grudzien'}
 expense_type = ['dom', 'rozrywka', 'jedzenie', 'inny']
 
@@ -22,8 +23,8 @@ def add_expense(month):
 
     
     
-    expense = (expense_amount, expense_type[exp_type_user], month) #wydatek + typ + msc
-    expenses.append(expense) #wydatek do listy wydatkow
+    expense = (expense_amount, expense_type[exp_type_user], month) #krotka wydatek + typ + msc 
+    expenses.append(expense) #krotka wydatek do listy wydatkow
 
 def show_stats(month):
     total_amount_this_month= sum(expense_amount for expense_amount, _, expense_month in expenses if expense_month == month)    
@@ -52,13 +53,6 @@ def show_stats(month):
     print('sredni wydatek w tym miesiacu:', average_expense_this_month)
     print('sredni wydatek:', average_expense_all)
     
-
-
-
-
-
-
-
 def add_expese_type():
     expense_type.append(input('podaj nowy typ wydatku'))
 
