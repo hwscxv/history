@@ -1,2 +1,2 @@
-# wszystkie pliki zapisane z komputera na poczatku 2023
+# hwscxv's code journey
 # 
